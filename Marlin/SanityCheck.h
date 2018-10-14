@@ -840,7 +840,7 @@ static_assert(X_MAX_LENGTH >= X_BED_SIZE && Y_MAX_LENGTH >= Y_BED_SIZE,
 
   /**
    * Make sure Z raise values are set
-   */
+   */ 
   #ifndef Z_CLEARANCE_DEPLOY_PROBE
     #error "You must define Z_CLEARANCE_DEPLOY_PROBE in your configuration."
   #elif !defined(Z_CLEARANCE_BETWEEN_PROBES)
